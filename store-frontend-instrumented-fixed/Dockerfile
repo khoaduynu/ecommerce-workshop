@@ -1,5 +1,5 @@
 # This dockerfile is used to build sandbox image for docker clouds. It's not meant to be used in projects
-FROM ruby:2.6.6
+FROM ruby:2.7.6
 RUN apt-get update && apt-get install -y \
   curl \
   build-essential \
